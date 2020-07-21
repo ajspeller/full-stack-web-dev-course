@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyLibrary</title>
-</head>
-<body>
-  Before
-  <br>
-  <%- body %>
-  <br>
-  After
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyLibrary</title>
+  </head>
+  <body>
+    <%- include('../_partials/header.ejs') %>
+    <%- include('../_partials/errorMessage.ejs') %> 
+    <%- body %>
+  </body>
 </html>
